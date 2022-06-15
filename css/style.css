@@ -1,0 +1,178 @@
+   html,body{
+       height: 100%;
+       margin: 0;
+       padding: 0;
+   }
+   html{
+       box-sizing: border-box;
+   }
+   *{
+       box-sizing: inherit;
+   }
+   a{
+       text-decoration: none;
+   }
+   ul,li{
+       list-style: none;
+       padding: 0;
+       display: inline;
+   }
+
+   .container{
+    max-width: 1700px;
+    padding: 0 10px;
+    margin: 0 auto;
+    }
+   
+   .wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    }
+    .content{
+        flex: 1 0 auto;
+        background-image: url(../images/kart.PNG);
+        background-size: cover;
+        background-position: center;
+    }
+    .content.content-sp{
+        background-image: none;
+        background-color:#ccc;
+    }
+    .header{
+        height: 120px;
+        color: white;
+        background-image: url(../images/nebo.PNG) ;
+        padding-top: 15px;
+        text-shadow: black 4px 4px 3px;
+    }
+    
+    
+    .header__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__inner img{
+        width: 100px;
+        border: 1px solid #fff;
+    }
+    .name{
+        font-family: 'Orelega One', cursive;
+        font-size: 30px;
+    }
+    li{
+        padding: 10px;
+    }
+    li a{
+        color: #fff;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    .active{
+        font-weight: 700;
+    }
+    h2{
+        font-family: 'Orelega One', cursive;
+        font-size: 48px;
+        font-weight: 400;
+        text-align: center; 
+    }
+    article{
+        background-color: #fff;
+        border: 1px solid rgb(58, 58, 58);
+        margin-bottom: 10px;
+        padding: 10px 15px;
+    }
+    .selo__img{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .selo__img img{
+        width: 450px;
+    }
+    .people__img{
+        text-align: center;
+    }
+    .skola__img{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .skola__img img{
+        width: 450px;
+    }
+    .cerk__img{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cerk__img img{
+        width: 450px;
+    }
+    .yan_img{
+        text-align: center;
+    }
+    .yan_img img{
+        border-radius: 50% ;
+        border: 3px solid rgb(58, 58, 58);
+    }
+   .oks__img{
+       text-align: center;
+   }
+   .oks__img img{
+    border-radius: 50% ;
+    border: 3px solid rgb(58, 58, 58);
+   }
+   .viber__img{
+    text-align: center;
+    
+   }
+   .viber__img img{
+   
+    
+    width: 450px;
+}
+   .insta__img{
+   text-align: center;
+   }
+   .insta__img img{
+    width: 300px;
+   }
+   .face__img{
+    text-align: center;
+    }
+    .face__img img{
+     width: 300px;
+    }
+
+    p{
+        font-size: 15px;
+        font-family: 'Orelega One', cursive;
+        font-weight: 400;
+        color: rgb(58, 58, 58);
+        text-align: justify;
+
+    }
+    .footer{
+        flex: 0 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        color: #fff;
+        background-color: rgb(33, 33 ,33);
+        
+    }
+    .footer span{
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+    }
+    .footer span a{
+        font-weight: 700;
+        color: royalblue;
+    }
